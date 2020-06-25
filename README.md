@@ -3,10 +3,10 @@ docker file for 13-produce with nanban (for osm_base)
 
 # How to use
 docker rmi 13nanban  
-git clone git@github.com:ubukawa/13nanban  
+git clone git@github.com:ubukawa/13-nanban  
 cd 13nanban  
-docker build -t 13nanban .  
-docker run -it --rm -v ${PWD}:/data 13nanban  
+docker build -t 13-nanban .  
+docker run -it --rm -v ${PWD}:/data 13-nanban  
  
 cd 13-produce  
 vi config/default.hjson  
